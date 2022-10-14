@@ -2,7 +2,7 @@ import Constants as Keys
 from telegram.ext import *
 import Responses as R
 
-print("Bot started...")
+print("Bot started... test")
 
 def start_command(update, context):
     update.message.reply_text('Type something here...')
